@@ -110,8 +110,7 @@
   appearance: none;
 }
 .q8-input-init:focus {
-  border: 1px solid #00BCD4;
-  box-shadow: 0 0 7px #1abc9c;
+  box-shadow: 0 0 7px #00BCD4;
 }
 .q8-main-items-title {
   float: left;
@@ -243,6 +242,7 @@
   font-size: 16px;
   line-height: 26px;
   border: none;
+  outline: none;
 }
 .q8-main-bottom-btn:active {
   background-color: #FFF;

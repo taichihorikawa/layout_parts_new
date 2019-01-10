@@ -2,10 +2,11 @@
 
 /* 回答はここに書いてね */
 .box-sizing {
-  margin-top: 20px;
+  margin: 20px auto 0;
   background-color: #eff3f4;
   width: 940px;
   padding: 20px;
+  box-sizing: border-box;
 }
 .q1-box {
   background-color: #3274ae;
@@ -31,4 +32,4 @@
 }
 
 
-/* 回答はここに書いてね
+/* 回答はここに書いてね */
