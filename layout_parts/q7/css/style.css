@@ -6,18 +6,15 @@
   display: block;
   clear: both;
 }
-.q7-1-box-left {
-  float: left;
-  font-size: 16px;
-  box-sizing: border-box;
-  width: 225px;
-}
-.q7-1-box-right {
+.q7-1-box {
   margin-left: 50px;
   float: left;
   font-size: 16px;
   box-sizing: border-box;
   width: 225px;
+}
+.q7-1-box:first-child {
+  margin-left: 0px;
 }
 .q7-2 {
   display: table;
@@ -35,20 +32,16 @@
 .q7-3 {
   display: table;
 }
-.q7-3-box-left {
-  display: inline-block;
-  font-size: 16px;
-  vertical-align: middle;
-  box-sizing: border-box;
-  width: 225px;
-}
-.q7-3-box-right {
+.q7-3-box {
   display: inline-block;
   font-size: 16px;
   margin-left: 50px;
   vertical-align: middle;
   box-sizing: border-box;
   width: 225px;
+}
+.q7-3-box:first-child {
+  margin-left: 0px;
 }
 .q7-4 {
   display: flex;

@@ -4,7 +4,7 @@
 .title {
   margin: 0 auto;
 }
-.box {
+.position {
   margin: 0 auto;
   height: 500px;
   width: 500px;
@@ -12,10 +12,13 @@
   position: relative;
   font-size: 30px;
 }
-.box1 {
+.position-box {
   line-height: 100px;
+  height: 100px;
   width: 100px;
   text-align: center;
+}
+.box1 {
   background-color: #ffefd3;
   position: absolute;
   top: 40px;
@@ -23,9 +26,6 @@
   z-index: 1;
 }
 .box2 {
-  line-height: 100px;
-  width: 100px;
-  text-align: center;
   background-color: #7084de;
   position: absolute;
   top: 120px;
@@ -33,9 +33,6 @@
   z-index: 2;
 }
 .box3 {
-  line-height: 100px;
-  width: 100px;
-  text-align: center;
   background-color: #d0ecea;
   position: absolute;
   top: 200px;
@@ -43,9 +40,6 @@
   z-index: 3;
 }
 .box4 {
-  line-height: 100px;
-  width: 100px;
-  text-align: center;
   background-color: #8d7a5e;
   position: absolute;
   top: 280px;
@@ -53,9 +47,6 @@
   z-index: 4;
 }
 .box5 {
-  line-height: 100px;
-  width: 100px;
-  text-align: center;
   background-color: #9fd6d2;
   position: absolute;
   top: 360px;
@@ -63,9 +54,6 @@
   z-index: 5;
 }
 .box6 {
-  line-height: 100px;
-  width: 100px;
-  text-align: center;
   background-color: #fffee4;
   position: absolute;
   top: 280px;
@@ -73,9 +61,6 @@
   z-index: 6;
 }
 .box7 {
-  line-height: 100px;
-  width: 100px;
-  text-align: center;
   background-color: #deae70;
   position: absolute;
   top: 200px;
@@ -83,9 +68,6 @@
   z-index: 7;
 }
 .box8 {
-  line-height: 100px;
-  width: 100px;
-  text-align: center;
   background-color: #de70cf;
   position: absolute;
   top: 120px;
@@ -103,9 +85,6 @@
   z-index: 9;
 }
 .box9 {
-  line-height: 100px;
-  width: 100px;
-  text-align: center;
   background-color: #2b69a3;
   position: fixed;
   top: 10px;

@@ -98,6 +98,21 @@
 .q8-main-items {
   margin-bottom: 20px;
 }
+.q8-input-init {
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.q8-input-init:focus {
+  border: 1px solid #00BCD4;
+  box-shadow: 0 0 7px #1abc9c;
+}
 .q8-main-items-title {
   float: left;
   width: 100px;
@@ -154,6 +169,22 @@
   background-color: #00BCD4;
   border-radius: 50%;
   content: "";
+}
+.q8-select {
+  position: relative;
+}
+.q8-select::after {
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: 2px solid #E5E5E5;
+  transform: rotate(45deg);
+  content: "";
+  pointer-events: none;
 }
 .q8-select-body {
   width: 100%;
@@ -212,6 +243,10 @@
   font-size: 16px;
   line-height: 26px;
   border: none;
+}
+.q8-main-bottom-btn:active {
+  background-color: #FFF;
+  color: #00BCD4;
 }
 .q8-side {
   float: right;

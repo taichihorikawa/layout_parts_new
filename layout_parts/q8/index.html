@@ -111,7 +111,7 @@
                     <span class="is-required">*</span>
                     </p>
                     <div class="q8-main-items-content">
-                      <input class="q8-input" type="text" name="name" required>
+                      <input class="q8-input q8-input-init" type="text" name="name" required>
                     </div>
                   </li>
                   <li class="clearfix">
@@ -131,8 +131,8 @@
                   </li>
                   <li class="clearfix">
                     <p class="q8-main-items-title">出身</p>
-                    <div class="q8-main-items-content">
-                      <select name="hometwon" class="q8-select-body">
+                    <div class="q8-main-items-content q8-select">
+                      <select name="hometwon" class="q8-select-body q8-input-init">
                         <option value="tokyo">東京</option>
                         <option value="saitama">埼玉</option>
                         <option value="chiba">千葉</option>
@@ -145,13 +145,13 @@
                       <span class="is-required">*</span>
                     </p>
                     <div class="q8-main-items-content">
-                      <input class="q8-input" type="email" placeholder="ex) hoge@gmail.com" name="email" required>
+                      <input class="q8-input q8-input-init" type="email" placeholder="ex) hoge@gmail.com" name="email" required>
                     </div>
                   </li>
                   <li class="clearfix">
                     <p class="q8-main-items-title">電話番号</p>
                     <div class="q8-main-items-content">
-                      <input class="q8-input" type="text" name="tel" placeholder="ex) 08012345678">
+                      <input class="q8-input q8-input-init" type="text" name="tel" placeholder="ex) 08012345678">
                     </div>
                   </li>
                   <li class="clearfix">
@@ -165,12 +165,11 @@
                   </li>
                 </ul>
                 <div class="q8-main-bottom">
-                  <button class="q8-main-bottom-btn" type="submit">送信</button>
+                  <button class="q8-main-bottom-btn q8-input-init" type="submit">送信</button>
                 </div>
               </div>
               <div class="q8-side">
-                <textarea class="q8-side-text" name="message" placeholder="何かあれば入力してください。">
-                </textarea>
+                <textarea class="q8-side-text q8-input-init" name="message" placeholder="何かあれば入力してください。"></textarea>
               </div>
             </form>
           </div>

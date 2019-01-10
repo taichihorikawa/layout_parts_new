@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table {
+.foodmenu {
   width: 100%;
   text-align: center;
   border: solid #dedede 1px;
